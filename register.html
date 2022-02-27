@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- splide css -->
+    <link rel="stylesheet" href="assets/dist/css/splide.min.css" />
+    <!-- splide js -->
+    <script src="assets/dist/js/splide.min.js"></script>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- aos lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <body>
+    <style>
+      .banner-section {
+        height: 420px;
+      }
+      .banner-section::after {
+        height: inherit;
+      }
+    </style>
+    <!-- navbar -->
+    <div class="navbar">
+      <div class="logo">
+        <img src="assets/img/logo1.svg" alt="" />
+      </div>
+      <ul class="account-section">
+        <li>Learn more</li>
+        <li><a href="login.html">Login</a></li>
+        <li class="">
+          <a href="" class="accBtn">Sign up</a>
+        </li>
+      </ul>
+    </div>
+    <!-- banner -->
+    <div class="banner-section">
+      <div class="banner">
+        <p class="banner-title">Unlimited Opportunities</p>
+        <p class="banner-info">
+          Bolt & mygarage.africa is collaborating to change the experience in
+          the e-hailing services in Nigeria. This collaboration is offering
+          unlimited possibilities to Host leasing out vehicles to verified
+          drivers one city at a time in Nigeria.
+        </p>
+        <!-- <button class="learnBtn">LEARN MORE</button> -->
+      </div>
+    </div>
+    <div class="search-box">
+      <div class="searchIcon"><i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
+    <div class="account-btn">
+      <button class="register-host">Register as Host</button>
+      <button class="driver-register">Register as Driver</button>
+      <button class="enterprise">Enterprise</button>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6"></div>
+        <div class="col-sm-6 col-md-6">
+          <div class="registerForm">
+            <form action="">
+              <p class="form-title">Driver Information</p>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">First Name</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">Last Name</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">D.O.B</label>
+                    <input type="date" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">Gender</label>
+                    <select name="" id="" class="form-control">
+                      <option value="">--select gender--</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-12">
+                  <div class="form-group">
+                    <label for="">Upload NIN</label>
+                    <input type="file" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <p class="form-title">Contact</p>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">Phone number 1</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <div class="form-group">
+                    <label for="">Phone number 2</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <label for="">Email address</label>
+                    <input type="email" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <label for="">Location(Landmark)</label>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="3"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <label for="">Address</label>
+                    <textarea
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="3"
+                      class="form-control"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+              <p class="form-title">Documentation</p>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <label for="">Driver License</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Driver License number"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <label for="">Upload Driver License</label>
+                    <input type="file" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <p class="form-title">Terms of Agreement</p>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
+                repellendus nostrum explicabo numquam culpa aliquam.
+              </p>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-6">
+                  <button class="btn">Download</button>
+                </div>
+                <div class="col-sm-6 col-md-6">
+                  <input type="file" class="form-control" />
+                  <small>Upload</small>
+                </div>
+              </div>
+              <p class="form-title">Guarantor Information</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur commodi labore vero laboriosam, reprehenderit vel.
+              </p>
+              <div class="form-row">
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <button class="btn">Download</button>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <input type="file" class="form-control" />
+                    <small>Guarantor 1</small>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4">
+                  <div class="form-group">
+                    <input type="file" class="form-control" />
+                    <small>Guarantor 2</small>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  AOS.init()
+</script>
+<script src="assets/app.js"></script>
