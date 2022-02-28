@@ -112,7 +112,7 @@ a:hover{
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   /* margin-top: 40px; */
 }
 .banner-title{
@@ -323,6 +323,7 @@ a:hover {
 .explore-garage-section {
   width: 100%;
   background: #ffface;
+  position: relative;
 }
 
 .location-section {
@@ -566,15 +567,26 @@ section .card .image img {
   height: 80%;
   background: #c4c4c4;
 }
+
 /* explore section */
 .explore-img {
   width: 100%;
   height: 500px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   /* align-items: flex-end; */
   /* flex-direction: column; */
   padding: 0 30px;
+}
+.col-img{
+  /* position: relative; */
+}
+.africa-img{
+  position: absolute;
+  top: -50px;
+  height: 500px;
+  z-index: 100;
+  left: -240px;
 }
 .explore-link {
   width: 100%;
@@ -817,4 +829,49 @@ section .card .image img {
 }
 .form-title{
   font-weight: bold;
+}
+
+@media screen and (max-width: 700px){
+ .banner-section{
+    height: 420px;
+ } 
+ .banner-section::after{
+   height: 420px;
+ }
+ .banner-title{
+   font-size: 20px;
+ }
+ .banner-info{
+   font-size: 14px;
+ }
+ .banner{
+   width: 85%;
+   text-align: justify;
+ }
+ .account-btn {
+  height: 60px;
+  width: 90%;
+}
+.account-btn button {
+  width: 32%;
+  height: 40px;
+  margin: 7px;
+  border-radius: 35px;
+  border: none;
+  font-size: 11px;
+}
+.browse-car-section {
+  margin-bottom: 80px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.browse-car {
+  background: #fff;
+  height: 330px;
+  width: 10px;
+  border-radius: 36px;
+  border: 1px solid #c4c4c438;
+  box-shadow: 0 10px 6px -12px #777;
+}
 }

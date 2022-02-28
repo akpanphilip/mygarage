@@ -38,6 +38,40 @@
       .banner-section::after {
         height: inherit;
       }
+      .driver-steps{
+        width: 100%;
+        height: 120px;
+        /* border: 1px solid; */
+        display: flex;
+      }
+      .steps-icon{
+        width: 18%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        border-radius: 50%;
+        border: 2px solid #feb100;
+        color: #feb100;
+
+      }
+      .steps-info{
+        width: 77%;
+        height: 100%;
+        padding: 0 25px;
+        /* background: turquoise; */
+      }
+      .top-info, bottom-info{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+      }
+      .top-info{
+        font-weight: bold;
+        font-size: 20px;
+      }
     </style>
     <!-- navbar -->
     <div class="navbar">
@@ -75,7 +109,132 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 col-md-6"></div>
+        <div class="col-sm-6 col-md-6">
+          <div class="steps">
+            <p class="title">Get started as a Driver</p>
+            <div class="row g-4">
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-car-side"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">ROAD WORTHY VEHICLES</div>
+                    <div class="bottom-info">Access to roadworthy vehicles on short-term lease or hire purchase.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">FRIENDLY TERMS</div>
+                    <div class="bottom-info">Choose term of lease that soothes your interest and budget.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-brands fa-gg-circle"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">SPARE PARTS</div>
+                    <div class="bottom-info">Access to vehicle spare parts from accredited merchants.</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-circle-dot"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">INSURANCE & SECURITY</div>
+                    <div class="bottom-info">All vehicles are comprehensively insured and tracked via satellite.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="linkBtn">Register as a Driver</button>
+          </div>
+          <div class="steps">
+            <p class="title">Get started as a Host</p>
+            <div class="row g-4">
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                      <i class="fa-solid fa-people-arrows-left-right"></i>
+                    </i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">VERIFIED DRIVERS</div>
+                    <div class="bottom-info">Get connected to verified drivers in your city.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-candy-bar"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">GUARANTEED LEASE FEES</div>
+                    <div class="bottom-info">Guaranteed weekly lease payments from the driver.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-hands-asl-interpreting"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">MONTHLY VEHICLE INSPECTION</div>
+                    <div class="bottom-info">Receive monthly vehicle inspection report from a professional support center in your city.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-regular fa-calendar"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">FREE SATELLITE TRACKING SYSTEM</div>
+                    <div class="bottom-info">Access to real-time and historical data on the vehicle's activities.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-regular fa-check"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">VEHICLE THEFT & RECOVERY</div>
+                    <div class="bottom-info">Theft & Recovery in collaboration with law enforcement agencies.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-12">
+                <div class="driver-steps">
+                  <div class="steps-icon">
+                    <i class="fa-solid fa-circle-dot"></i>
+                  </div>
+                  <div class="steps-info">
+                    <div class="top-info">SPARE PARTS FINANCING</div>
+                    <div class="bottom-info">Access to verified merchants selling spare parts and other value added services.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="linkBtn">Register as a Host</button>
+          </div>
+        </div>
         <div class="col-sm-6 col-md-6">
           <div class="registerForm">
             <form action="">
