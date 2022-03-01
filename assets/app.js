@@ -27,16 +27,41 @@ questions.forEach(function (question) {
     });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    new Splide('#vehicle', {
-        type: 'loop',
-        perPage: 4,
-        perMove: 1,
-        gap: "30px",
-        pagination: false,
-    }).mount();
-});
+// document.addEventListener('DOMContentLoaded', function () {
+//     new Splide('#vehicle', {
+//         type: 'loop',
+//         perPage: 4,
+//         perMove: 1,
+//         gap: "30px",
+//         pagination: false,
+//     }).mount();
+// });
 
+    document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#vehicle", {
+          type: "loop",
+          heightRatio: 0.5,
+          perPage: 4,
+          breakpoints: {
+            1024: {
+              perPage: 3,
+             
+            },
+            767: {
+              perPage: 2,
+          
+            },
+            640: {
+              perPage: 1,
+        
+            },
+          },
+          focus: "center",
+          gap: '2em',
+          updateOnMove : true,
+          pagination: false,
+        }).mount();
+      });
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('#location', {
         type: 'loop',
@@ -66,3 +91,4 @@ document.addEventListener('DOMContentLoaded', function () {
     }).mount();
 });
 
+    
