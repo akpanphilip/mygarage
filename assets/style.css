@@ -61,8 +61,6 @@ a:hover {
 }
 .navbar {
   font-weight: 600;
-  padding: 0 70px;
-  height: 70px;
   box-shadow: 0 0 10px #c4c4c4;
 }
 .logo {
@@ -981,9 +979,6 @@ section .card .image img {
 }
 .get-started-links{
   width: 64%;
-  /* margin: auto; */
-  height: 60px;
-  /* background: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -991,7 +986,8 @@ section .card .image img {
   color: #fff;
   font-weight: bold;
   padding-bottom: 30px;
-  margin-top: 90px
+  margin-top: 90px;
+  text-align: center;
 }
 .get-started-links span{
   border-right: 2px solid var(--ylwClr);
@@ -1053,5 +1049,64 @@ section .card .image img {
 }
 .questionTable td{
   border: 1px solid;
+}
+.table i{
+  font-size: 15px;
+  color: #555;
+  /* font-weight: 500; */
+}
+.purchaseSection, .rentalSection{
+  display: none;
+}
+.termsCheck{
+  margin-bottom: 25px;
+}
 
+@media screen and (max-width: 900px) {
+  .get-started-links{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 30px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  .get-started-links span{
+    border-right: 2px solid var(--ylwClr);
+    padding-bottom:  28px;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-started-links span:last-child{
+    border-right: none;
+  }
+  .steps-section2 .step-count{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media screen  and (max-width: 700px){
+  .host-banner{
+    height: 400px;
+  }
+  .host-banner::after{
+    height: 400px;
+  }
+  .host-banner .linkBtn{
+    padding: 30px 10px;
+  }
+  .title{
+    font-size: 20px;
+  }
+  .steps-section2 .step-count{
+    font-size: 17px;
+  }
+  .navbar{
+    text-align: center;
+  }
 }

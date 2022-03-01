@@ -32,90 +32,100 @@
   </head>
   <body>
     <style>
-      .box{
+      .box {
         width: 100%;
         height: 200px;
         margin-bottom: 30px;
       }
-      .register-banner {
-        /* height: 580px; */
-      }
-      .introImg{
+      .introImg {
         width: 100%;
         height: 580px;
       }
-      .introImg img{
+      .introImg img {
         width: 100%;
         height: 100%;
       }
-      
     </style>
     <!-- navbar -->
-    <div class="navbar">
-      <div class="logo">
-        <a href="index.html">
-        <img src="assets/img/logo1.svg" alt="" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img src="assets/img/logo1.svg" alt="" />
         </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse offset-lg-7" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#">Learn more</a>
+            <a class="nav-link" href="login.html">Login</a>
+            <a class="accBtn" href="register.html">Register</a>
+          </div>
+        </div>
       </div>
-      <ul class="account-section">
-        <li>Learn more</li>
-        <li><a href="login.html">Login</a></li>
-        <li class="">
-          <a href="" class="accBtn">Sign up</a>
-        </li>
-      </ul>
-    </div>
+    </nav>
     <!-- banner -->
     <div class="host-banner">
-      <div class="get-started-links">
-        <span>Road Worthy Vehicles</span>
-        <span>Friendly Terms</span>
-        <span>Spare Parts Fianace</span>
-        <span>Insurance & Security</span>
+      <div class="get-started-links row">
+        <div class="col-sm-6 col-md-12 col-lg-3">
+          <span>Road Worthy Vehicles</span>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-3">
+          <span>Friendly Terms</span>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-3">
+          <span>Spare Parts Fianace</span>
+        </div>
+        <div class="col-sm-6 col-md-12 col-lg-3">
+          <span>Insurance & Security</span>
+        </div>
       </div>
       <a href="#form-region" class="linkBtn">REGISTER NOW</a>
     </div>
 
     <div class="steps-section">
-        
       <p class="title text-center">Get started as a Host</p>
       <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
+        <div class="row g-4">
+          <div class="col-sm-6 col-md-6">
             <div class="stepsBox">
-                <div class="step-icon">
-                    <i class="fa-solid fa-file-arrow-down"></i>
-                </div>
+              <div class="step-icon">
+                <i class="fa-solid fa-file-arrow-down"></i>
+              </div>
               <div class="step-count">Step 1</div>
               <div class="step-info">
-                  Download and fill the guarantor and driver agreement form to get verified.
+                Download and fill the guarantor and driver agreement form to get
+                verified.
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-6">
             <div class="stepsBox">
-                <div class="step-icon">
-                    <i class="fa-solid fa-envelope-open-text"></i>
-                </div>
+              <div class="step-icon">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
               <div class="step-count">Step 2</div>
               <div class="step-info">
-                After verification, you will get an email to proceed for a drive test.
+                After verification, you will get an email to proceed for a drive
+                test.
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-6">
             <div class="stepsBox">
               <div class="step-count">Step 3</div>
               <div class="step-info">
-                After verification, you will get an email to proceed for a drive test.
+                After verification, you will get an email to proceed for a drive
+                test.
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-6">
             <div class="stepsBox">
               <div class="step-count">Step 4</div>
               <div class="step-info">
-                After verification, you will get an email to proceed for a drive test.
+                After verification, you will get an email to proceed for a drive
+                test.
               </div>
             </div>
           </div>
@@ -124,67 +134,70 @@
     </div>
 
     <div class="steps-section2">
-        <p class="title text-center">Get started as a Host</p>
-        <div class="container">
-          <div class="row g-4">
-            <div class="col-sm-6 col-md-6">
-              <div class="stepsBox">
-                <div class="step-count">VERIFIED DRIVERS</div>
-                <div class="step-info">
-                    Get connected to verified drivers in your city..
-                </div>
+      <p class="title text-center">Get started as a Host</p>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">VERIFIED DRIVERS</div>
+              <div class="step-info">
+                Get connected to verified drivers in your city..
               </div>
             </div>
-            <div class="col-sm-6 col-md-6">
-              <div class="stepsBox">
-                <div class="step-count">MONTHLY VEHICLE INSPECTION</div>
-                <div class="step-info">
-                    Receive monthly vehicle inspection report from a professional support center in your city.
-                </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">MONTHLY VEHICLE INSPECTION</div>
+              <div class="step-info">
+                Receive monthly vehicle inspection report from a professional
+                support center in your city.
               </div>
             </div>
-            <div class="col-sm-6 col-md-6">
-              <div class="stepsBox">
-                <div class="step-count">VEHICLE THEFT & RECOVERY</div>
-                <div class="step-info">
-                    Theft & Recovery in collaboration with law enforcement agencies.
-                </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">VEHICLE THEFT & RECOVERY</div>
+              <div class="step-info">
+                Theft & Recovery in collaboration with law enforcement agencies.
               </div>
             </div>
-            <div class="col-sm-6 col-md-6">
-              <div class="stepsBox">
-                <div class="step-count">GUARANTEED LEASE FEES</div>
-                <div class="step-info">
-                    Guaranteed weekly lease payments from the driver.
-                </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">GUARANTEED LEASE FEES</div>
+              <div class="step-info">
+                Guaranteed weekly lease payments from the driver.
               </div>
-            </div>  
-            <div class="col-sm-6 col-md-6">
-                <div class="stepsBox">
-                  <div class="step-count">FREE SATELLITE TRACKING SYSTEM</div>
-                  <div class="step-info">
-                    Access to real-time and historical data on the vehicle's activities.
-                  </div>
-                </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">FREE SATELLITE TRACKING SYSTEM</div>
+              <div class="step-info">
+                Access to real-time and historical data on the vehicle's
+                activities.
               </div>
-              <div class="col-sm-6 col-md-6">
-                <div class="stepsBox">
-                  <div class="step-count">SPARE PARTS FINANCING</div>
-                  <div class="step-info">
-                    Access to verified merchants selling spare parts and other value added services.
-                  </div>
-                </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6">
+            <div class="stepsBox">
+              <div class="step-count">SPARE PARTS FINANCING</div>
+              <div class="step-info">
+                Access to verified merchants selling spare parts and other value
+                added services.
               </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="form-region" id="form-region">
-        <div class="container-fluid">
-          <div class="row">        
-            <div class="col-sm-6 col-md-8 offset-md-2">
-              <div class="registerForm">
-                <form action="">
-                 <div class="form1">
+    </div>
+    <div class="form-region" id="form-region">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-md-12 col-lg-8 offset-lg-2">
+            <div class="registerForm">
+              <form action="">
+                <div class="form1">
                   <p class="form-title">Host Information</p>
                   <div class="form-row">
                     <div class="col-sm-6 col-md-6">
@@ -249,7 +262,7 @@
                     <div class="col-sm-6 col-md-12 col-lg-12">
                       <div class="form-group">
                         <label for="">City *</label>
-                        <select name=""class="form-select">
+                        <select name="" class="form-select">
                           <option value="">Abuja</option>
                           <option value="">Lagos</option>
                           <option value="">Kano</option>
@@ -276,184 +289,414 @@
                     </div>
                   </div>
                   <div class="moveBtn">
-                    <button id="nextBtn" class="btn text-dark bg-ylw">Next <i class="fa-solid fa-arrow-right"></i></button>
-                  </div>  
-                 </div>   
-                 <div class="form2">
-                  <p class="form-title">Documentation</p>
-                <div class="form-row">
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Driver License *</label>
+                    <button id="nextBtn" class="btn text-dark bg-ylw">
+                      Next
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="form2">
+                  <p class="form-title">Terms of Agreement</p>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Nemo repellendus nostrum explicabo numquam culpa aliquam.
+                  </p>
+                  <div class="form-row">
+                    <div class="col-sm-6 col-md-6 mb-2">
+                      <button class="btn w-100 bg-ylw">Download</button>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                      <input type="file" class="form-control" />
+                      <small>Upload</small>
+                    </div>
+                  </div>
+                  <p class="form-title">Bank</p>
+                  <div class="form-row">
+                    <div class="col-sm-6 col-md-4 col-lg-6">
+                      <div class="form-group">
+                        <label for="">Bank Name</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-6">
+                      <div class="form-group">
+                        <label for="">Account type</label>
+                        <select name="" class="form-select">
+                          <option value="">Savings</option>
+                          <option value="">Current</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-6">
+                      <div class="form-group">
+                        <label for="">Account number</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-6">
+                      <div class="form-group">
+                        <label for="">Account number</label>
+                        <input type="text" class="form-control" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <p class="form-title">Service Model</p>
+                  <div class="form-group">
+                    <label for="">Service Type</label>
+                    <select
+                      name="service_model"
+                      id="service_model"
+                      class="form-select"
+                    >
+                      <option value="">--select service type--</option>
+                      <option value="hire_purchase" id="hire_purchase">
+                        Hire purchase
+                      </option>
+                      <option value="rental" id="rental">Rental</option>
+                    </select>
+                  </div>
+                  <div class="purchaseSection">
+                    <div class="form-row">
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Hire purchase value</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">City</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Abuja</option>
+                            <option value="">Lagos</option>
+                            <option value="">Benue</option>
+                            <option value="">Abia</option>
+                            <option value="">Abuja</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Security deposit</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Weekly remittance</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Transmission</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Automatic</option>
+                            <option value="">Manual</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-12">
+                        <div class="form-group">
+                          <label for="">Engine type</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Petrol</option>
+                            <option value="">Diesel</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-12">
+                        <label for="">
+                          Recommend the address of your preferred mechanic
+                        </label>
+                        <textarea
+                          class="form-control"
+                          name=""
+                          id=""
+                          cols="30"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                      <div class="col-sm-6 col-md-6"></div>
+                    </div>
+                    <!-- hire purchase table -->
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Host</th>
+                          <th scope="col">Driver</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">
+                            Repairs on the suspension system , exhaust, fuel
+                            supply system
+                          </th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Monthly oil change and servicing</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Repair on air conditioning system</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            Insurance and vehicle document renewals
+                          </th>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Repair on wear and tear</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Can the driver work out of town</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Comprehensive Insurance</th>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="rentalSection">
+                    <div class="form-row">
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">City</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Abuja</option>
+                            <option value="">Lagos</option>
+                            <option value="">Benue</option>
+                            <option value="">Abia</option>
+                            <option value="">Abuja</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Security deposit</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Weekly remittance</label>
+                          <input type="text" class="form-control" />
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-6">
+                        <div class="form-group">
+                          <label for="">Transmission</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Automatic</option>
+                            <option value="">Manual</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-12">
+                        <div class="form-group">
+                          <label for="">Engine type</label>
+                          <select name="" id="" class="form-select">
+                            <option value="">Petrol</option>
+                            <option value="">Diesel</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-12">
+                        <label for="">
+                          Recommend the address of your preferred mechanic
+                        </label>
+                        <textarea
+                          class="form-control"
+                          name=""
+                          id=""
+                          cols="30"
+                          rows="3"
+                        ></textarea>
+                      </div>
+                    </div>
+                    <!-- rental table -->
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th scope="col"></th>
+                          <th scope="col">Host</th>
+                          <th scope="col">Driver</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">
+                            Repairs on the suspension system , exhaust, fuel
+                            supply system
+                          </th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Monthly oil change and servicing</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Repair on air conditioning system</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            Insurance and vehicle document renewals
+                          </th>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Repair on wear and tear</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Can the driver work out of town</th>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                          <td><i class="fa-solid fa-times text-danger"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Comprehensive Insurance</th>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                          <td>
+                            <i
+                              class="fa-solid fa-circle-check text-success"
+                            ></i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="checkBox">
+                    <div class="form-check termsCheck">
                       <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Driver License number"
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
                       />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        By checking this box I agree to <a class="text-warning" href="terms_conditions.html">terms and conditions.</a>
+                      </label>
                     </div>
                   </div>
-                  <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Upload Driver License *</label>
-                      <input type="file" class="form-control" />
-                    </div>
+                  <div class="moveBtn">
+                    <button id="backBtn" class="btn">
+                      <i class="fa-solid fa-arrow-left"></i>
+                      Back
+                    </button>
+                    <button class="btn text-dark bg-ylw ml-4">REGISTER</button>
                   </div>
                 </div>
-                <p class="form-title">Terms of Agreement</p>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo
-                  repellendus nostrum explicabo numquam culpa aliquam.
-                </p>
-                <div class="form-row">
-                  <div class="col-sm-6 col-md-6">
-                    <button class="btn w-100 bg-ylw">Download</button>
-                  </div>
-                  <div class="col-sm-6 col-md-6">
-                    <input type="file" class="form-control" />
-                    <small>Upload</small>
-                  </div>
-                </div>
-                <p class="form-title">Guarantor Information</p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Pariatur commodi labore vero laboriosam, reprehenderit vel.
-                </p>
-                <div class="form-row">
-                  <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="form-group">
-                      <button class="btn bg-ylw w-100">Download</button>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="form-group">
-                      <input type="file" class="form-control" />
-                      <small>Guarantor 1</small>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-4">
-                    <div class="form-group">
-                      <input type="file" class="form-control" />
-                      <small>Guarantor 2</small>
-                    </div>
-                  </div>
-                </div>
-                <p class="form-title">Bank</p>
-                <div class="form-row">
-                  <div class="col-sm-6 col-md-4 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Bank Name</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Account type</label>
-                      <select name="" class="form-select">
-                        <option value="">Savings</option>
-                        <option value="">Current</option>
-                      </select>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Account number</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-md-4 col-lg-6">
-                    <div class="form-group">
-                      <label for="">Account number</label>
-                      <input type="text" class="form-control" />
-                    </div>
-                  </div>
-                </div>
-
-                <table class="questionTable text-center">
-                    <tr>
-                        <th>Variable</th>
-                        <th>Host</th>
-                        <th>Driver</th>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td colspan="2">Rental</td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                    </tr>
-                    <tr>
-                        <td>text text</td>
-                        <td><i class="fa-solid fa-times"></i></td>
-                        <td><i class="fa-solid fa-check"></i></td>
-                    </tr>
-                </table>
-                <div class="moveBtn">
-                  <button id="backBtn" class="btn"><i class="fa-solid fa-arrow-left"></i> Back</button>
-                  <button class="btn text-dark bg-ylw ml-4">REGISTER</button>
-                </div> 
-                </div>             
-                </form>
-              </div>
+              </form>
             </div>
+          </div>
         </div>
-        </div>
-      </div>   
-
+      </div>
+    </div>
   </body>
 </html>
 <script>
   AOS.init()
 </script>
-<!-- <script src="assets/app.js"></script> -->
 <script>
   // multistep form
-let nextButton =  document.querySelector('#nextBtn');
-let backButton =  document.querySelector('#backBtn');
+  let nextButton = document.querySelector('#nextBtn')
+  let backButton = document.querySelector('#backBtn')
 
-let box1 = document.querySelector('.form1');
-let box2 = document.querySelector('.form2');
+  let box1 = document.querySelector('.form1')
+  let box2 = document.querySelector('.form2')
 
-nextButton.addEventListener('click', (e)=>{
-    e.preventDefault();
-    showBox2();
-});
-backButton.addEventListener('click', (e)=>{
-    e.preventDefault();
-    showBox1();
-});
-function showBox2(){
-    box1.style.display = "none";
-    box2.style.display = "block";
-}
+  nextButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    showBox2()
+  })
+  backButton.addEventListener('click', (e) => {
+    e.preventDefault()
+    showBox1()
+  })
+  function showBox2() {
+    box1.style.display = 'none'
+    box2.style.display = 'block'
+  }
 
-function showBox1(){
-    box2.style.display = "none";
-    box1.style.display = "block";
-}
-
-  
+  function showBox1() {
+    box2.style.display = 'none'
+    box1.style.display = 'block'
+  }
 </script>
 
 <!-- VERIFIED DRIVERS
@@ -474,9 +717,9 @@ Access to real-time and historical data on the vehicle's activities.
 SPARE PARTS FINANCING
 Access to verified merchants selling spare parts and other value added services. -->
 
-
-<!-- [6:13 PM, 2/28/2022] Sir Ifeanyi: Service Model 1
--Hire Purhcase
+<!-- [6:13 PM, 2/28/2022] Sir Ifeanyi:
+Service Model 1
+-Hire Purhcase, 
 city
 hire purhcase value
 security deposit
@@ -485,11 +728,11 @@ transmission;automatic or manual
 engine type; petrol or diesel
 Recommend the address of your preferred mechanic
 
-Who will be responsible for repairs on the suspension system , exhaust, fuel supply system?-driver
-Who will be responsible for monthly oil change and servicing?-driver
-Who will be responsible for repair on air conditioning system?-driver
-Who will be responsible for insurance and vehicle document renewals?-Host
-Who will be responsible for repair on wear and tear? -driver
+repairs on the suspension system , exhaust, fuel supply system?-driver
+monthly oil change and servicing?-driver
+repair on air conditioning system?-driver
+insurance and vehicle document renewals?-Host
+repair on wear and tear? -driver
 Can the driver work out of town?-YNO
 Insurance Type; comprehensive
 
@@ -511,11 +754,11 @@ transmission;automatic or manual
 engine type; petrol or diesel
 Recommend the address of your preferred mechanic
 
-Who will be responsible for repairs on the suspension system , exhaust, fuel supply system?-driver
-Who will be responsible for monthly oil change and servicing?-driver
-Who will be responsible for repair on air conditioning system?-driver
-Who will be responsible for insurance and vehicle document renewals?-Host
-Who will be responsible for repair on wear and tear? -driver
+ repairs on the suspension system , exhaust, fuel supply system?-driver
+ monthly oil change and servicing?-driver
+ repair on air conditioning system?-driver
+ insurance and vehicle document renewals?-Host
+ repair on wear and tear? -driver
 Can the driver work out of town?-NO
 Insurance Type; comprehensive
 
@@ -527,7 +770,6 @@ weekly remittance
 security deposit
 transmission;automatic or manual
 engine type; petrol or diesel
-
 Recommend the address of your preferred mechanic?
 Who will be responsible for repairs on the suspension system , exhaust, fuel supply system?-driver
 Who will be responsible for monthly oil change and servicing?-host
@@ -536,3 +778,26 @@ Who will be responsible for insurance and vehicle document renewals?-Host
 Who will be responsible for repair on wear and tear? -host
 Can the driver work out of town?-NO
 Insurance Type; comprehensive -->
+
+<script>
+  let hire_purchase = document.querySelector('#hire_purchase')
+  let rental = document.querySelector('#rental')
+  let purchase_section = document.querySelector('.purchaseSection')
+  let rental_section = document.querySelector('.rentalSection')
+  let service_model = document.querySelector('#service_model')
+  console.log(service_model)
+  service_model.addEventListener('change', checkValue)
+
+  function checkValue() {
+    if (service_model.value == 'hire_purchase') {
+      purchase_section.style.display = 'block'
+      rental_section.style.display = 'none'
+    } else if (service_model.value == 'rental') {
+      purchase_section.style.display = 'none'
+      rental_section.style.display = 'block'
+    } else {
+      purchase_section.style.display = 'none'
+      rental_section.style.display = 'none'
+    }
+  }
+</script>
